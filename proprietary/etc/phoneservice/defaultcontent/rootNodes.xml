@@ -1,0 +1,1167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<content lan = "zh-cn" >
+     <item>
+	    <id>1</id>
+		<title>精彩功能</title>
+	 </item>
+	 
+	  <item>
+	    <id>2</id>
+		<title>玩机技巧</title>
+	 </item>
+	  
+	  <item>
+	    <id>3</id>
+		<title>导入资料</title>
+	 </item>
+	 
+	 <item>
+	    <id>4</id>
+		<title>新机初设</title>
+	 </item>
+	 
+	 <item>
+	    <id>5</id>
+		<title>开始使用</title>
+	 </item>
+	 
+	 <item>
+	    <id>6</id>
+		<title>更多指导</title>
+	 </item>
+	
+</content>
+
+<content lan = "en" >
+     <item>
+	    <id>1</id>
+		<title>Highlights</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Tips and tricks</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importing data</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Initial setup</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Getting started</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Further guidance</title>
+	 </item>
+	
+</content>
+
+<content lan = "da">
+     <item>
+	    <id>1</id>
+		<title>Højdepunkter</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Tip og tricks</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importerer data</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Første opsætning</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Introduktion</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Yderligere vejledning</title>
+	 </item>
+	
+</content>
+
+<content lan="my-mm">
+     <item>
+	    <id>1</id>
+		<title>ထူးျခားခ်က္မ်ား</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>အႀကံျပဳခ်က္မ်ားႏွင့္ ဆန္းၾကယ္မႈမ်ား </title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>ေဒတာတင္သြင္းျခင္း</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>ကနဦး သတ္မွတ္ခ်က္ခ်ျခင္း</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>စတင္ေတာ့ပါမည္</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>ေနာက္ဆက္တြဲ လမ္းၫႊန္</title>
+	 </item>
+	
+</content>
+
+<content lan="cs">
+     <item>
+	    <id>1</id>
+		<title>Stručný přehled</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Tipy a triky</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importování dat</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Základní nastavení</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Začínáme</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Další rady</title>
+	 </item>
+	
+</content>
+
+<content lan="nl">
+     <item>
+	    <id>1</id>
+		<title>Hoogtepunten</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Tips en trucs</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Gegevens importeren</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Eerste instelling</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Aan de slag</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Aanvullende aanwijzingen</title>
+	 </item>
+	
+</content>
+
+<content lan = "fa">
+     <item>
+	    <id>1</id>
+		<title>مطالب مهم</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>نکته ها و ترفندها</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>وارد کردن داده ها</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>نصب اولیه</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>شروع بکار</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>راهنمایی بیشتر</title>
+	 </item>
+	
+</content>
+
+<content lan = "fi">
+     <item>
+	    <id>1</id>
+		<title>Kohokohdat</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Ohjeita ja vihjeitä</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Datan tuonti</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Alkuasetukset</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Aloittaminen</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Lisäohjeet</title>
+	 </item>
+	
+</content>
+
+<content lan="de">
+     <item>
+	    <id>1</id>
+		<title>Überblick</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Tipps und Tricks</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importieren von Daten</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Ersteinrichtung</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Erste Schritte</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Weitere Informationen</title>
+	 </item>
+	
+</content>
+
+<content lan="zh-hk">
+     <item>
+	    <id>1</id>
+		<title>亮點</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>提示及秘訣</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>正在匯入數據</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>初始設定</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>入門指南</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>更多指引</title>
+	 </item>
+	
+</content>
+
+<content lan="in">
+     <item>
+	    <id>1</id>
+		<title>Sorotan</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Kiat dan trik</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Mengimpor data</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Penyiapan awal</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Cara memulai</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Panduan lebih lanjut</title>
+	 </item>
+	
+</content>
+
+<content lan = "nb">
+     <item>
+	    <id>1</id>
+		<title>Høydepunkter</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Tips og triks</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importere data</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Første konfigurasjon</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Komme i gang</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Videre veiledning</title>
+	 </item>
+	
+</content>
+
+<content lan="pl">
+     <item>
+	    <id>1</id>
+		<title>Wprowadzenie</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Porady i wskazówki</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importowanie danych</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Przygotowanie do użycia</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Początek pracy</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Dalsze wskazówki</title>
+	 </item>
+	
+</content>
+
+<content lan = "sk">
+     <item>
+	    <id>1</id>
+		<title>Prehľad</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Tipy a triky</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importovanie dát</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Počiatočné nastavenie</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Začíname</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Ďalšie sprievodné informácie</title>
+	 </item>
+	
+</content>
+
+<content lan = "sv">
+     <item>
+	    <id>1</id>
+		<title>Höjdpunkter</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Tips och trick</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importera data</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Inledande inställning</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Kom igång</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Mer vägledning</title>
+	 </item>
+	
+</content>
+
+<content lan="zh-tw">
+     <item>
+	    <id>1</id>
+		<title>重點特色</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>秘訣與技巧</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>匯入資料</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>初始設定</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>開始使用</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>進一步指引</title>
+	 </item>
+	
+</content>
+
+<content lan="th">
+     <item>
+	    <id>1</id>
+		<title>ไฮไลท์</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>เทคนิคและเคล็ดลับ</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>การนำเข้าข้อมูล</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>การตั้งค่าเริ่มต้น</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>เริ่มต้นการใช้งาน</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>คำแนะนำเพิ่มเติม</title>
+	 </item>
+	
+</content>
+
+<content lan="ar">
+     <item>
+	    <id>1</id>
+		<title>الميزات الجديدة</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>تلميحات وحيل</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>استيراد البيانات</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>الإعداد الأولي</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>بدء الاستخدام</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>معلومات إضافية</title>
+	 </item>
+	
+</content>
+
+<content lan = "en-gb" >
+     <item>
+	    <id>1</id>
+		<title>Highlights</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Tips and tricks</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importing data</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Initial setup</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Getting started</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Further guidance</title>
+	 </item>
+	
+</content>
+
+<content lan="fr">
+     <item>
+	    <id>1</id>
+		<title>Éléments d&apos;intérêt</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Trucs et astuces</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importation des données en cours</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Paramétrage initial</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Prise en main</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Futures conseils</title>
+	 </item>
+	
+</content>
+
+<content lan="hu">
+     <item>
+	    <id>1</id>
+		<title>Újdonságok</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Tippek és trükkök</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Adatok importálása</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Első beállítás</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Első lépések</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>További útmutatás</title>
+	 </item>
+	
+</content>
+
+<content lan="pt-pt">
+     <item>
+	    <id>1</id>
+		<title>Destaques</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Sugestões e truques</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importar dados</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Configuração inicial</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Primeiros passos</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Mais orientações</title>
+	 </item>
+	
+</content>
+
+<content lan="ru">
+     <item>
+	    <id>1</id>
+		<title>Новые функции</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Советы и подсказки</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Импорт данных</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Подготовка к работе</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Начало работы</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Дополнительная информация</title>
+	 </item>
+	
+</content>
+
+<content lan="it">
+     <item>
+	    <id>1</id>
+		<title>Caratteristiche</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Suggerimenti e soluzioni</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importazione dati</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Impostazioni iniziali</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Operazioni preliminari</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Ulteriore assistenza</title>
+	 </item>
+	
+</content>
+
+<content lan="vi">
+     <item>
+	    <id>1</id>
+		<title>Nổi bật</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Mẹo và thủ thuật</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Nhập dữ liệu</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Cài đặt ban đầu</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Bắt đầu</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Hướng dẫn thêm</title>
+	 </item>
+	
+</content>
+
+<content lan = "tr">
+     <item>
+	    <id>1</id>
+		<title>Önemli noktalar</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>İpuçları ve hileler</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Veri içeri aktarılıyor</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Başlangıç kurulumu</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Başlarken</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Ayrıntılı yardım</title>
+	 </item>
+	
+</content>
+
+<content lan = "es">
+     <item>
+	    <id>1</id>
+		<title>Aspectos destacados</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Sugerencias y trucos</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importación de datos</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Configuración inicial</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Pasos iniciales</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Más lineamientos</title>
+	 </item>
+	
+</content>
+
+<content lan = "es-us">
+     <item>
+	    <id>1</id>
+		<title>Aspectos destacados</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Sugerencias y trucos</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importación de datos</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Configuración inicial</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Pasos iniciales</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Más lineamientos</title>
+	 </item>
+	
+</content>
+
+<content lan = "bg">
+     <item>
+	    <id>1</id>
+		<title>Основни теми</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Съвети и похвати</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Импортиране на данни</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Първоначална настройка</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Начално представяне</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Допълнителни указания</title>
+	 </item>
+	
+</content>
+
+<content lan = "hr">
+     <item>
+	    <id>1</id>
+		<title>Istaknuto</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Savjeti i trikovi</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Uvoz podataka</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Početno postavljanje</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Prvi koraci</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Daljnja pomoć</title>
+	 </item>
+	
+</content>
+
+<content lan = "et">
+     <item>
+	    <id>1</id>
+		<title>Esiletõstud</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Nõuanded ja näpunäited</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Andmete importimine</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Algne häälestus</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Alustamine</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Edasised juhtnöörid</title>
+	 </item>
+	
+</content>
+
+<content lan="el">
+     <item>
+	    <id>1</id>
+		<title>Σημαντικότερα σημεία</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Συμβουλές και ιδέες</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Εισαγωγή δεδομένων</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Αρχική ρύθμιση</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Έναρξη</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Περαιτέρω καθοδήγηση</title>
+	 </item>
+	
+</content>
+
+<content lan="ja">
+     <item>
+	    <id>1</id>
+		<title>ハイライト</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>ヒント</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>データのインポート</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>初期設定</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>はじめに</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>詳細ガイド</title>
+	 </item>
+	
+</content>
+
+<content lan="kh-kh">
+     <item>
+	    <id>1</id>
+		<title>រំលេច</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>ព័ត៌មានជំនួយ និងល្បិច</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>ការយកចូលទិន្នន័យ​</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>ការដំឡើងដំបូង</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>ការចាប់ផ្តើម</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>ការណែនាំបន្ថែម</title>
+	 </item>
+	
+</content>
+
+<content lan = "lv">
+     <item>
+	    <id>1</id>
+		<title>Īsumā</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Padomi un ieteikumi</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Datu importēšana</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Sākotnējā iestatīšana</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Darba sākšana</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Turpmāki norādījumi</title>
+	 </item>
+	
+</content>
+
+<content lan = "lt">
+     <item>
+	    <id>1</id>
+		<title>Akcentai</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Patarimai ir gudrybės</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Duomenų importavimas</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Pradinė sąranka</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Pradžia</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Tolesnės rekomendacijos</title>
+	 </item>
+	
+</content>
+
+<content lan = "mk">
+     <item>
+	    <id>1</id>
+		<title>Најважни новини</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Совети и трикови</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Важни информации</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Првично поставување</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Како да почнете</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Понатамошни насоки</title>
+	 </item>
+	
+</content>
+
+<content lan = "ro">
+     <item>
+	    <id>1</id>
+		<title>Evidenţieri</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Sfaturi şi trucuri</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Importul datelor</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Setare iniţială</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Să începem</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Îndrumări suplimentare</title>
+	 </item>
+	
+</content>
+
+<content lan = "sr">
+     <item>
+	    <id>1</id>
+		<title>Istaknuti sadržaji</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Saveti i trikovi</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Uvoz podataka</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Početno podešavanje</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Prvi koraci</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Dalje smernice</title>
+	 </item>
+	
+</content>
+
+<content lan = "sl">
+     <item>
+	    <id>1</id>
+		<title>Poudarki</title>
+	 </item>
+
+	 <item>
+	    <id>2</id>
+		<title>Nasveti in zvijače</title>
+	 </item>
+	  <item>
+	    <id>3</id>
+		<title>Uvažanje podatkov</title>
+	 </item>
+	 <item>
+	    <id>4</id>
+		<title>Začetna namestitev</title>
+	 </item>
+	  <item>
+	    <id>5</id>
+		<title>Prvi koraki</title>
+	 </item>
+	 <item>
+	    <id>6</id>
+		<title>Dodatna navodila</title>
+	 </item>
+	
+</content>
+
+</root>

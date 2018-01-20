@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MMITest>
+    <TestItem key="ro.mmi.flash_CT_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.smartpa_calibratet_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.smartPA_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.nfc_test" value="true"></TestItem>
+
+    <!--Factory version balack list.The items in the tag will not be tested in Factory version
+        Notes:the TestItem value should be set "false"-->
+    <Factory>
+        <TestItem key="ro.mmi.flash_CT_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.bluetooth_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.wifi_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.nfc_test" value="true"></TestItem>
+    </Factory>
+
+    <!--Normal version balack list.The items in the tag will not be tested in Normal version
+        Notes:the TestItem value should be set "false"-->
+    <Normal>
+        <TestItem key="ro.mmi.smartpa_calibratet_test" value="false"></TestItem>
+    </Normal>
+
+    <Properties key="ro.mmi.support_card_slot_share" value="false"/>
+    <Properties key="ro.mmi.touch_screen_rows" value="24"/>
+    <Properties key="ro.mmi.touch_screen_columns" value="14"/>
+    <Properties key="ro.mmi.enable_gesture_detector" value="true"/>
+
+    <!--These prop donnt use any more-->
+    <!--Properties key="ro.mmi.red_leds_node" value="6"></Properties>-->
+    <!--Properties key="ro.mmi.green_leds_node" value="6"></Properties>-->
+    <!--Properties key="ro.mmi.blue_leds_node" value="6"></Properties>-->
+
+    <!--These prop use the default value-->
+    <!--<Properties key="ro.mmi.max_scan_delay_time" value="6000"></Properties> used for WIFI&BT scan-->
+    <!--<Properties key="ro.mmi.min_scan_delay_time" value="3000"></Properties> used for WIFI&BT scan-->
+    <!--<Properties key="ro.mmi.headset_music_volume" value="10"></Properties> used for test volume about headset item-->
+    <!--<Properties key="ro.mmi.camera_rotation" value="0"></Properties>-->
+    <!--<Properties key="ro.mmi.touch_row_array" value="6"></Properties> only used for test type ROWS on MTK platform-->
+    <!--<Properties key="ro.config.hw.security_volume" value="6"></Properties> App should not change the value-->
+    <!--<Properties key="ro.mmi.ptt_keycode" value="220"></Properties>-->
+</MMITest>
