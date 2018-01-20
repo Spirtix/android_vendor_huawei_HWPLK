@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/vendor/firmware/fw_bcm4339_hw.bin:system/vendor/firmware/fw_bcm4339_hw.bin \
 	vendor/huawei/HWPLK/proprietary/vendor/firmware/fw_bcm4339_apsta_hw.bin:system/vendor/firmware/fw_bcm4339_apsta_hw.bin \
 	vendor/huawei/HWPLK/proprietary/vendor/firmware/BCM4334B0_002.001.013.1837.2355.hcd:system/vendor/firmware/BCM4334B0_002.001.013.1837.2355.hcd \
+	vendor/huawei/HWPLK/proprietary/vendor/firmware/BCM4335C0_003.001.009.0105.0574_Huawei_Plank_ONLY.hcd:system/vendor/firmware/BCM4335C0_003.001.009.0105.0574_Huawei_Plank_ONLY.hcd \
 	vendor/huawei/HWPLK/proprietary/vendor/framework/com.huawei.audioalgo.jar:system/vendor/framework/com.huawei.audioalgo.jar \
 	vendor/huawei/HWPLK/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/huawei/HWPLK/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
