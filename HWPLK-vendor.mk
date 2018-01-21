@@ -55,7 +55,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/bin/9b17660b-8968-4eed-917e-dd32379bd548.sec:system/bin/9b17660b-8968-4eed-917e-dd32379bd548.sec \
 	vendor/huawei/HWPLK/proprietary/bin/79b77788-9789-4a7a-a2be-b60155eef5f4.sec:system/bin/79b77788-9789-4a7a-a2be-b60155eef5f4.sec \
 	vendor/huawei/HWPLK/proprietary/bin/883890ba-3ef8-4f0b-9c02-f5874acbf2ff.sec:system/bin/883890ba-3ef8-4f0b-9c02-f5874acbf2ff.sec \
-	vendor/huawei/HWPLK/proprietary/bin/a32b3d00-cb57-11e3-9c1a-0800200c9a66.secd:system/bin/a32b3d00-cb57-11e3-9c1a-0800200c9a66.sec \
+	vendor/huawei/HWPLK/proprietary/bin/a32b3d00-cb57-11e3-9c1a-0800200c9a66.sec:system/bin/a32b3d00-cb57-11e3-9c1a-0800200c9a66.sec \
 	vendor/huawei/HWPLK/proprietary/bin/abe89147-cd61-f43f-71c4-1a317e405312.sec:system/bin/abe89147-cd61-f43f-71c4-1a317e405312.sec \
 	vendor/huawei/HWPLK/proprietary/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec:system/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec \
 	vendor/huawei/HWPLK/proprietary/bin/fingerprintd:system/bin/fingerprintd \
