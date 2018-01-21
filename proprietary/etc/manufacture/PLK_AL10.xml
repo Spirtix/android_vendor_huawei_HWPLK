@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MMITest>
+    <TestItem key="ro.mmi.infrared_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.front_flash_light_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.hvc_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.fingerprint_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.gyroscope_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.tp_color_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.smartPA_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.gsensor_calibrate_test" value="true"></TestItem>
+    <TestItem key="ro.mmi.nfc_test" value="true"></TestItem>
+
+    <Properties key="ro.mmi.keypad_test_list" value="24,25,26,308"/>
+    <Properties key="ro.mmi.log_path" value="/data/log/mmi"/>
+    <Properties key="ro.mmi.hall_sensor_poles" value="1"/>
+
+    <!--Factory version balack list.The items in the tag will not be tested in Factory version
+        Notes:the TestItem value should be set "false"-->
+    <Factory>
+        <TestItem key="ro.mmi.flash_CT_test" value="false"></TestItem>
+        <TestItem key="ro.mmi.smartpa_calibratet_test" value="true"></TestItem>
+
+        <Properties key="ro.mmi.enable_gesture_detector" value="true"/>
+    </Factory>
+
+    <!--Normal version balack list.The items in the tag will not be tested in Normal version
+        Notes:the TestItem value should be set "false"-->
+    <Normal>
+        <TestItem key="ro.mmi.flash_CT_test" value="true"></TestItem>
+        <TestItem key="ro.mmi.pdaf_verification_test" value="true"></TestItem>
+        <TestItem key="ro.mmi.smartpa_calibratet_test" value="false"></TestItem>
+
+        <Properties key="ro.mmi.enable_gesture_detector" value="false"/>
+    </Normal>
+
+</MMITest>
