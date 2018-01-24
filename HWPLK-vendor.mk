@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec:system/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec \
 	vendor/huawei/HWPLK/proprietary/bin/fingerprintd:system/bin/fingerprintd \
 	vendor/huawei/HWPLK/proprietary/bin/keystore:system/bin/keystore \
+	vendor/huawei/HWPLK/proprietary/bin/tee:system/bin/tee \
 	vendor/huawei/HWPLK/proprietary/bin/gpslogd:system/bin/gpslogd \
 	vendor/huawei/HWPLK/proprietary/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
 	vendor/huawei/HWPLK/proprietary/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
@@ -382,6 +383,24 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib/hw/copybit.hi3635.so:system/lib/hw/copybit.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib/hw/keystore.hi3635.so:system/lib/hw/keystore.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib/hw/memtrack.hi3635.so:system/lib/hw/memtrack.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/fingerprint.hi3635.so:system/lib/hw/fingerprint.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/fingerprintd.ex.so:system/lib/hw/fingerprintd.ex.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/gatekeeper.hi3635.so:system/lib/hw/gatekeeper.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/keystore.hi3635.so:system/lib/hw/keystore.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/sensorhub.default.so:system/lib/hw/sensorhub.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/fingerprint.hi3635.so:system/lib/hw/fingerprint.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/fingerprintd.ex.so:system/lib/hw/fingerprintd.ex.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/gatekeeper.hi3635.so:system/lib/hw/gatekeeper.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/keystore.hi3635.so:system/lib/hw/keystore.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/sensorhub.default.so:system/lib/hw/sensorhub.default.so \
+	vendor/huawei/HWPLK/proprietary/usr/idc/fingerprint.idc:system/usr/idc/fingerprint.idc \
+	vendor/huawei/HWPLK/proprietary/usr/keylayout/fingerprint.kl:system/usr/keylayout/fingerprint.kl \
 	vendor/huawei/HWPLK/proprietary/bin/keystore:system/bin/keystore \
 	vendor/huawei/HWPLK/proprietary/lib/libsoftkeymasterdevice.so:system/lib/libsoftkeymasterdevice.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libsoftkeymasterdevice.so:system/lib64/libsoftkeymasterdevice.so \
