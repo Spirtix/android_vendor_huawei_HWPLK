@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES := \
     vendor/huawei/HWPLK/proprietary/vendor/firmware/nvram4339_hw_plk_tl00.txt:system/vendor/firmware/nvram4339_hw_plk_tl00.txt \
     vendor/huawei/HWPLK/proprietary/vendor/firmware/nvram4339_hw_plk_tl00h.txt:system/vendor/firmware/nvram4339_hw_plk_tl00h.txt \
     vendor/huawei/HWPLK/proprietary/vendor/firmware/nvram4339_hw_plk_ul00.txt:system/vendor/firmware/nvram4339_hw_plk_ul00.txt \
+	vendor/huawei/HWPLK/proprietary/vendor/firmware/dhd_preinit_config.txt:system/vendor/firmware/dhd_preinit_config.txt \
 	vendor/huawei/HWPLK/proprietary/vendor/firmware/hifi_6402_4spk.img:system/vendor/firmware/hifi_6402_4spk.img \
 	vendor/huawei/HWPLK/proprietary/vendor/firmware/hifi_6402.img:system/vendor/firmware/hifi_6402.img \
 	vendor/huawei/HWPLK/proprietary/vendor/firmware/fw_bcm4339_test_hw_apsta.bin:system/vendor/firmware/fw_bcm4339_test_hw_apsta.bin \
