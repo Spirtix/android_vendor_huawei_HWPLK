@@ -749,7 +749,7 @@
   
   <path name="voice-rec-handfree-mic" >
     <path name="audio-capture" />
-    <path name="main-mic" />
+    <path name="main-aux-mic" />
   </path>
   
   <path name="voice-rec-headset-mic" >

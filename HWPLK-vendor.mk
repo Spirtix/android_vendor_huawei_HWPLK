@@ -64,6 +64,9 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/bin/tee:system/bin/tee \
 	vendor/huawei/HWPLK/proprietary/bin/gpslogd:system/bin/gpslogd \
 	vendor/huawei/HWPLK/proprietary/lib/libgps_factory_test.so:system/lib/libgps_factory_test.so \
+	vendor/huawei/HWPLK/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
+	vendor/huawei/HWPLK/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+	vendor/huawei/HWPLK/proprietary/etc/com.huawei.audioalgo.xml:system/etc/com.huawei.audioalgo.xml \
 	vendor/huawei/HWPLK/proprietary/etc/gps47531config_cl.xml:system/etc/gps47531config_cl.xml \
 	vendor/huawei/HWPLK/proprietary/etc/gps47531config_cl_beta.xml:system/etc/gps47531config_cl_beta.xml \
 	vendor/huawei/HWPLK/proprietary/etc/gps47531config.xml:system/etc/gps47531config.xml \
@@ -509,6 +512,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/etc/srs/srs_processing.cfg:system/etc/srs/srs_processing.cfg \
 	vendor/huawei/HWPLK/proprietary/etc/srs/srsmodels.lic:system/etc/srs/srsmodels.lic \
 	vendor/huawei/HWPLK/proprietary/etc/media_codecs_dts_audio.xml:system/etc/media_codecs_dts_audio.xml \
+	vendor/huawei/HWPLK/proprietary/etc/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
 	vendor/huawei/HWPLK/proprietary/lib/hw/audio.primary.hi3635.so:system/lib/hw/audio.primary.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/audio.primary.hi3635.so:system/lib64/hw/audio.primary.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
@@ -522,6 +526,20 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/libmax98925.so:system/lib64/libmax98925.so \
 	vendor/huawei/HWPLK/proprietary/lib/libOpenMAXAL.so:system/lib/libOpenMAXAL.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libOpenMAXAL.so:system/lib64/libOpenMAXAL.so \
+	vendor/huawei/HWPLK/proprietary/lib64/soundfx/libvisualizer.so:system/lib64//soundfx/libvisualizer.so \
+	vendor/huawei/HWPLK/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+	vendor/huawei/HWPLK/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
+	vendor/huawei/HWPLK/proprietary/lib/soundfx/libreverbwrapper.so:system/soundfx/lib/libreverbwrapper.so \
+	vendor/huawei/HWPLK/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
+	vendor/huawei/HWPLK/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+	vendor/huawei/HWPLK/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
+	vendor/huawei/HWPLK/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+	vendor/huawei/HWPLK/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
+	vendor/huawei/HWPLK/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+	vendor/huawei/HWPLK/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
+	vendor/huawei/HWPLK/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+	vendor/huawei/HWPLK/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
+	vendor/huawei/HWPLK/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
 	vendor/huawei/HWPLK/proprietary/etc/audio/algorithm/algorithm_GRACEES_normal.xml:system/etc/audio/algorithm/algorithm_GRACEES_normal.xml \
 	vendor/huawei/HWPLK/proprietary/etc/audio/algorithm/algorithm_GRACE_CLG_normal.xml:system/etc/audio/algorithm/algorithm_GRACE_CLG_normal.xml \
 	vendor/huawei/HWPLK/proprietary/etc/audio/algorithm/algorithm_GRACE_TUGL_normal.xml:system/etc/audio/algorithm/algorithm_GRACE_TUGL_normal.xml \
@@ -594,6 +612,78 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_hi3635_normal.xml:system/etc/audio/modem/modem_hi3635_normal.xml \
 	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_hi3635cs_normal.xml:system/etc/audio/modem/modem_hi3635cs_normal.xml \
 	vendor/huawei/HWPLK/proprietary/etc/audio/sws/sws_default.xml:system/etc/audio/sws/sws_default.xml \
+		vendor/huawei/HWPLK/proprietary/etc/audio/algorithm/algorithm_PLK_L01_normal.xml:system/etc/audio/algorithm/algorithm_PLK_L01_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/algorithm/algorithm_PLK_AL_normal.xml:system/etc/audio/algorithm/algorithm_PLK_AL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/algorithm/algorithm_PLK_CL_normal.xml:system/etc/audio/algorithm/algorithm_PLK_CL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/algorithm/algorithm_PLK_UL_normal.xml:system/etc/audio/algorithm/algorithm_PLK_UL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/algorithm/algorithm_hi3635_normal.xml:system/etc/audio/algorithm/algorithm_hi3635_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/algorithm/algorithm_hi3635cs_normal.xml:system/etc/audio/algorithm/algorithm_hi3635cs_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/algorithm/ascend_algorithm_default.xml:system/etc/audio/algorithm/ascend_algorithm_default.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/dts/dts_PLK_L01_normal.xml:system/etc/audio/dts/dts_PLK_L01_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/dts/dts_PLK_AL_normal.xml:system/etc/audio/dts/dts_PLK_AL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/dts/dts_PLK_CL_normal.xml:system/etc/audio/dts/dts_PLK_CL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/dts/dts_PLK_UL_normal.xml:system/etc/audio/dts/dts_PLK_UL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/dts/dts_default.xml:system/etc/audio/dts/dts_default.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/dts/dts_hi3635_normal.xml:system/etc/audio/dts/dts_hi3635_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/dts/dts_hi3635cs_normal.xml:system/etc/audio/dts/dts_hi3635cs_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_paths_PLK.xml:system/etc/audio/hi6402/mixer_paths_PLK.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_paths_PLK.xml:system/etc/audio/hi6402/mixer_paths_PLK.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_paths_default.xml:system/etc/audio/hi6402/mixer_paths_default.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_paths_hi3635.xml:system/etc/audio/hi6402/mixer_paths_hi3635.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_paths_hi3635cs.xml:system/etc/audio/hi6402/mixer_paths_hi3635cs.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_paths_hi3635fpga.xml:system/etc/audio/hi6402/mixer_paths_hi3635fpga.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_ce.xml:system/etc/audio/hi6402/mixer_volumes_PLK_ce.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_cmcciot.xml:system/etc/audio/hi6402/mixer_volumes_PLK_cmcciot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_L01_normal.xml:system/etc/audio/hi6402/mixer_volumes_PLK_L01_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_telecomiot.xml:system/etc/audio/hi6402/mixer_volumes_PLK_telecomiot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_unicomiot.xml:system/etc/audio/hi6402/mixer_volumes_PLK_unicomiot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_AL_ce.xml:system/etc/audio/hi6402/mixer_volumes_PLK_AL_ce.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_AL_normal.xml:system/etc/audio/hi6402/mixer_volumes_PLK_AL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_CL_ce.xml:system/etc/audio/hi6402/mixer_volumes_PLK_CL_ce.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_CL_normal.xml:system/etc/audio/hi6402/mixer_volumes_PLK_CL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_UL_ce.xml:system/etc/audio/hi6402/mixer_volumes_PLK_UL_ce.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_UL_normal.xml:system/etc/audio/hi6402/mixer_volumes_PLK_UL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_cmcciot.xml:system/etc/audio/hi6402/mixer_volumes_PLK_cmcciot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_telecomiot.xml:system/etc/audio/hi6402/mixer_volumes_PLK_telecomiot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_unicomiot.xml:system/etc/audio/hi6402/mixer_volumes_PLK_unicomiot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_default.xml:system/etc/audio/hi6402/mixer_volumes_default.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_hi3635_normal.xml:system/etc/audio/hi6402/mixer_volumes_hi3635_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_hi3635cs_normal.xml:system/etc/audio/hi6402/mixer_volumes_hi3635cs_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_hi3635fpga_normal.xml:system/etc/audio/hi6402/mixer_volumes_hi3635fpga_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/pop_seq_PLK.xml:system/etc/audio/hi6402/pop_seq_PLK.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/pop_seq_PLK.xml:system/etc/audio/hi6402/pop_seq_PLK.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/pop_seq_default.xml:system/etc/audio/hi6402/pop_seq_default.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/pop_seq_hi3635.xml:system/etc/audio/hi6402/pop_seq_hi3635.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/pop_seq_hi3635cs.xml:system/etc/audio/hi6402/pop_seq_hi3635cs.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/pop_seq_hi3635fpga.xml:system/etc/audio/hi6402/pop_seq_hi3635fpga.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/maxim/maxim_PLK_L01_normal.xml:system/etc/audio/maxim/maxim_PLK_L01_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/maxim/maxim_PLK_AL_normal.xml:system/etc/audio/maxim/maxim_PLK_AL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/maxim/maxim_PLK_CL_normal.xml:system/etc/audio/maxim/maxim_PLK_CL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/maxim/maxim_PLK_UL_normal.xml:system/etc/audio/maxim/maxim_PLK_UL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/maxim/maxim_default.xml:system/etc/audio/maxim/maxim_default.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/maxim/maxim_hi3635_normal.xml:system/etc/audio/maxim/maxim_hi3635_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/maxim/maxim_hi3635cs_normal.xml:system/etc/audio/maxim/maxim_hi3635cs_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/mbdrc/mbdrc_PLK_L01_normal.xml:system/etc/audio/mbdrc/mbdrc_PLK_L01_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/mbdrc/mbdrc_PLK_AL_normal.xml:system/etc/audio/mbdrc/mbdrc_PLK_AL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/mbdrc/mbdrc_PLK_CL_normal.xml:system/etc/audio/mbdrc/mbdrc_PLK_CL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/mbdrc/mbdrc_PLK_UL_normal.xml:system/etc/audio/mbdrc/mbdrc_PLK_UL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/mbdrc/mbdrc_default.xml:system/etc/audio/mbdrc/mbdrc_default.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/mbdrc/mbdrc_hi3635_normal.xml:system/etc/audio/mbdrc/mbdrc_hi3635_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/mbdrc/mbdrc_hi3635cs_normal.xml:system/etc/audio/mbdrc/mbdrc_hi3635cs_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_PLK_cmcciot.xml:system/etc/audio/modem/modem_PLK_cmcciot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_PLK_L01_normal.xml:system/etc/audio/modem/modem_PLK_L01_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_PLK_telecomiot.xml:system/etc/audio/modem/modem_PLK_telecomiot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_PLK_unicomiot.xml:system/etc/audio/modem/modem_PLK_unicomiot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_PLK_AL_normal.xml:system/etc/audio/modem/modem_PLK_AL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_PLK_CL_normal.xml:system/etc/audio/modem/modem_PLK_CL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_PLK_UL_normal.xml:system/etc/audio/modem/modem_PLK_UL_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_PLK_cmcciot.xml:system/etc/audio/modem/modem_PLK_cmcciot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_PLK_telecomiot.xml:system/etc/audio/modem/modem_PLK_telecomiot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_PLK_unicomiot.xml:system/etc/audio/modem/modem_PLK_unicomiot.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_default.xml:system/etc/audio/modem/modem_default.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_hi3635_normal.xml:system/etc/audio/modem/modem_hi3635_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/modem/modem_hi3635cs_normal.xml:system/etc/audio/modem/modem_hi3635cs_normal.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/sws/sws_default.xml:system/etc/audio/sws/sws_default.xml \
 	vendor/huawei/HWPLK/proprietary/lib/hw/gralloc.hi3635.so:system/lib/hw/gralloc.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/gralloc.hi3635.so:system/lib64/hw/gralloc.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib/libgralloc_ext.so:system/lib/libgralloc_ext.so \
@@ -610,14 +700,14 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
 	vendor/huawei/HWPLK/proprietary/lib/liblog.so:system/lib/liblog.so \
 	vendor/huawei/HWPLK/proprietary/lib64/liblog.so:system/lib64/liblog.so \
-        vendor/huawei/HWPLK/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
-        vendor/huawei/HWPLK/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
-        vendor/huawei/HWPLK/proprietary/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
-        vendor/huawei/HWPLK/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so \
-        vendor/huawei/HWPLK/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
-        vendor/huawei/HWPLK/proprietary/lib/libshim_gui.so:system/lib/libshim_gui.so \
-        vendor/huawei/HWPLK/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
-        vendor/huawei/HWPLK/proprietary/lib/libshim_media.so:system/lib/libshim_media.so \
+    vendor/huawei/HWPLK/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
+    vendor/huawei/HWPLK/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
+    vendor/huawei/HWPLK/proprietary/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
+    vendor/huawei/HWPLK/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so \
+    vendor/huawei/HWPLK/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
+    vendor/huawei/HWPLK/proprietary/lib/libshim_gui.so:system/lib/libshim_gui.so \
+    vendor/huawei/HWPLK/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
+    vendor/huawei/HWPLK/proprietary/lib/libshim_media.so:system/lib/libshim_media.so \
 	vendor/huawei/HWPLK/proprietary/lib/hw/fm.bcm.hi3635.so:system/lib/hw/fm.bcm.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib/libfm_interface.so:system/lib/libfm_interface.so \
 	vendor/huawei/HWPLK/proprietary/lib/libfm_volume.so:system/lib/libfm_volume.so \
