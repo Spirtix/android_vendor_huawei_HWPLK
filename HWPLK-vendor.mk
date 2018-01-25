@@ -632,7 +632,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_paths_hi3635.xml:system/etc/audio/hi6402/mixer_paths_hi3635.xml \
 	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_paths_hi3635cs.xml:system/etc/audio/hi6402/mixer_paths_hi3635cs.xml \
 	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_paths_hi3635fpga.xml:system/etc/audio/hi6402/mixer_paths_hi3635fpga.xml \
-	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_ce.xml:system/etc/audio/hi6402/mixer_volumes_PLK_ce.xml \
+	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_L01_ce.xml:system/etc/audio/hi6402/mixer_volumes_PLK_L01_ce.xml \
 	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_cmcciot.xml:system/etc/audio/hi6402/mixer_volumes_PLK_cmcciot.xml \
 	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_L01_normal.xml:system/etc/audio/hi6402/mixer_volumes_PLK_L01_normal.xml \
 	vendor/huawei/HWPLK/proprietary/etc/audio/hi6402/mixer_volumes_PLK_telecomiot.xml:system/etc/audio/hi6402/mixer_volumes_PLK_telecomiot.xml \
