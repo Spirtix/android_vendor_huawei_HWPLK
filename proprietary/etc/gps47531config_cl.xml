@@ -29,9 +29,9 @@
     LtoFileName="lto2.dat"
     LtoDir="/data/gps/"
     LtoSyncThresholdDays="3"
-    AssertEnabled="false"
+       AssertEnabled="false"
     WakeLock="geo"
-    SmartMaskEnable="false"
+
   />
 
 <!--
@@ -51,7 +51,6 @@
     WarmStandbyTimeout1Seconds="10"
     WarmStandbyTimeout2Seconds="15"
   >
-  <notch_filter Freq="-1020000" Mode="gps" LoopCoefficient="4"/>
   </gll>
   <gll_features
 	   EnableLowPowerEls="false"	  

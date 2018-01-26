@@ -376,6 +376,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/camera.hi3635.so:system/lib64/hw/camera.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/copybit.hi3635.so:system/lib64/hw/copybit.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/flp.default.so:system/lib64/hw/flp.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/gps.hi3635.so:system/lib64/hw/gps.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/gps4752.default.so:system/lib64/hw/gps4752.default.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/gps47531.default.so:system/lib64/hw/gps47531.default.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/gps47531cl.default.so:system/lib64/hw/gps47531cl.default.so \

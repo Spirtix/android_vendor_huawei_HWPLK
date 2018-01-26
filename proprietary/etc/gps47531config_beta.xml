@@ -47,7 +47,7 @@
        LtoDir="/data/gps/"
        LtoSyncThresholdDays="3"
        AssertEnabled="false"
-       SmartMaskEnable="false"
+
   />
   <gll 
        LogPriMask="LOG_DEBUG"
@@ -57,7 +57,6 @@
        WarmStandbyTimeout1Seconds="10"
        WarmStandbyTimeout2Seconds="15"
   >
-  <notch_filter Freq="-1020000" Mode="gps" LoopCoefficient="4"/>
   </gll>
   
   <gll_features
