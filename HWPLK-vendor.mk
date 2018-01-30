@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
 	vendor/huawei/HWPLK/proprietary/vendor/lib/mediadrm:system/vendor/lib/mediadrm \
 	vendor/huawei/HWPLK/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+	vendor/huawei/HWPLK/proprietary/vendor/lib/libwvdrmengine.so:system/vendor/lib/libwvdrmengine.so \
 	vendor/huawei/HWPLK/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
 	vendor/huawei/HWPLK/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/huawei/HWPLK/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -122,6 +123,14 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.imx214.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.imx214.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.imx179_udp.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.imx179_udp.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.p.imx179.so:system/lib64/hwcam/hwcam.hi3635.PLK.p.imx179.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.p.imx179_liteon.so:system/lib64/hwcam/hwcam.hi3635.PLK.p.imx179_liteon.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.p.imx179_sunny.so:system/lib64/hwcam/hwcam.hi3635.PLK.p.imx179:sunny.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.s.imx179_liteon.so:system/lib64/hwcam/hwcam.hi3635.PLK.s.imx179_liteon.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.s.imx179_sunny.so:system/lib64/hwcam/hwcam.hi3635.PLK.s.imx179:sunny.so \
+	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.PLK.p.imx179_liteon.so:system/lib/hwcam/hwcam.hi3635.PLK.p.imx179_liteon.so \
+	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.PLK.p.imx179_sunny.so:system/lib/hwcam/hwcam.hi3635.PLK.p.imx179:sunny.so \
+	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.PLK.s.imx179_liteon.so:system/lib/hwcam/hwcam.hi3635.PLK.s.imx179_liteon.so \
+	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.PLK.s.imx179_sunny.so:system/lib/hwcam/hwcam.hi3635.PLK.s.imx179:sunny.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.ddt.so:system/lib64/hwcam/hwcam.ddt.so \
 	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.m.PLK.so:system/lib/hwcam/hwcam.hi3635.m.PLK.so \
 	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.GRACE.s.ov8865.so:system/lib/hwcam/hwcam.hi3635.GRACE.s.ov8865.so \
@@ -324,6 +333,10 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/etc/camera/pdafvalidation.xml:system/etc/camera/pdafvalidation.xml \
 	vendor/huawei/HWPLK/proprietary/etc/camera/dcvalidation.xml:system/etc/camera/dcvalidation.xml \
 	vendor/huawei/HWPLK/proprietary/etc/camera/ppconfig.xml:system/etc/camera/ppconfig.xml \
+	vendor/huawei/HWPLK/proprietary/etc/camera/frontsoftled/Bcalibration.txt:system/etc/camera/frontsoftled/Bcalibration.txt \
+	vendor/huawei/HWPLK/proprietary/etc/camera/frontsoftled/Gcalibration.txt:system/etc/camera/frontsoftled/Gcalibration.txt \
+	vendor/huawei/HWPLK/proprietary/etc/camera/frontsoftled/Pcalibration.txt:system/etc/camera/frontsoftled/Pcalibration.txt \
+	vendor/huawei/HWPLK/proprietary/etc/camera/frontsoftled/Wcalibration.txt:system/etc/camera/frontsoftled/Wcalibration.txt \
 	vendor/huawei/HWPLK/proprietary/etc/camera/ippalgoconfig.xml:system/etc/camera/ippalgoconfig.xml \
 	vendor/huawei/HWPLK/proprietary/fpgaice40/GRACE-CLG-V0.bin:system/fpgaice40/GRACE-CLG-V0.bin \
 	vendor/huawei/HWPLK/proprietary/fpgaice40/GRACE-CLG-V0.txt:system/fpgaice40/GRACE-CLG-V0.txt \
@@ -370,6 +383,22 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-UL00-VA.bin:system/fpgaice40/PLK-UL00-VA.bin \
 	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-UL00-VA.txt:system/fpgaice40/PLK-UL00-VA.txt \
 	vendor/huawei/HWPLK/proprietary/isp/isp.bin:system/isp/isp.bin \
+	vendor/huawei/HWPLK/proprietary/lib64/libdcamera_capture.so:system/lib64/libdcamera_capture.so \
+	vendor/huawei/HWPLK/proprietary/lib/libdcamera_capture.so:system/lib/libdcamera_capture.so \
+	vendor/huawei/HWPLK/proprietary/lib/libdcamera_sr.so:system/lib/libdcamera_sr.so \
+	vendor/huawei/HWPLK/proprietary/lib/libHW_BShutter.so:system/lib/libHW_BShutter.so \
+	vendor/huawei/HWPLK/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+	vendor/huawei/HWPLK/proprietary/lib/libmorpho_memory_allocator_old.so:system/lib/libmorpho_memory_allocator_old.so \
+	vendor/huawei/HWPLK/proprietary/lib/libmorpho_panorama_gp.so:system/lib/libmorpho_panorama_gp.so \
+	vendor/huawei/HWPLK/proprietary/lib/libmrc_cg_filters.so:system/lib/libmrc_cg_filters.so \
+	vendor/huawei/HWPLK/proprietary/lib/libmrc_cg_ldc.so:system/lib/libmrc_cg_ldc.so \
+	vendor/huawei/HWPLK/proprietary/lib/libmrc_cg_mfdenoise.so:system/lib/libmrc_cg_mfdenoise.so \
+	vendor/huawei/HWPLK/proprietary/lib/libmrc_cg_niceFood.so:system/lib/libmrc_cg_niceFood.so \
+	vendor/huawei/HWPLK/proprietary/lib/libmrc_cg_postprocess.so:system/lib/libmrc_cg_postprocess.so \
+	vendor/huawei/HWPLK/proprietary/lib/libmrc_cg_sz.so:system/lib/libmrc_cg_sz.so \
+	vendor/huawei/HWPLK/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
+	vendor/huawei/HWPLK/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+	vendor/huawei/HWPLK/proprietary/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
 	vendor/huawei/HWPLK/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
 	vendor/huawei/HWPLK/proprietary/bin/mediaserver:system/bin/mediaserver \
