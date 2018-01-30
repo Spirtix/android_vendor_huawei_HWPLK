@@ -355,6 +355,20 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/fpgaice40/LB_ALL_V4.txt:system/fpgaice40/LB_ALL_V4.txt \
 	vendor/huawei/HWPLK/proprietary/fpgaice40/LB_ALL_VN1.bin:system/fpgaice40/LB_ALL_VN1.bin \
 	vendor/huawei/HWPLK/proprietary/fpgaice40/LB_ALL_VN1.txt:system/fpgaice40/LB_ALL_VN1.txt \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-L01-VA.bin:system/fpgaice40/PLK-L01-VA.bin \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-L01-VA.txt:system/fpgaice40/PLK-L01-VA.txt \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-AL10-VA.bin:system/fpgaice40/PLK-AL10-VA.bin \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-AL10-VA.txt:system/fpgaice40/PLK-AL10-VA.txt \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-CL00-VA.bin:system/fpgaice40/PLK-CL00-VA.bin \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-CL00-VA.txt:system/fpgaice40/PLK-CL00-VA.txt \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-L02-VA.bin:system/fpgaice40/PLK-L02-VA.bin \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-L02-VA.txt:system/fpgaice40/PLK-L02-VA.txt \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-TL00-VA.bin:system/fpgaice40/PLK-TL00-VA.bin \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-TL00-VA.txt:system/fpgaice40/PLK-TL00-VA.txt \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-TL01H-VA.bin:system/fpgaice40/PLK-TL01H-VA.bin \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-TL01H-VA.txt:system/fpgaice40/PLK-TL01H-VA.txt \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-UL00-VA.bin:system/fpgaice40/PLK-UL00-VA.bin \
+	vendor/huawei/HWPLK/proprietary/fpgaice40/PLK-UL00-VA.txt:system/fpgaice40/PLK-UL00-VA.txt \
 	vendor/huawei/HWPLK/proprietary/isp/isp.bin:system/isp/isp.bin \
 	vendor/huawei/HWPLK/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
