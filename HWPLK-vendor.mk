@@ -439,14 +439,14 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib/hw/keystore.hi3635.so:system/lib/hw/keystore.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
 	vendor/huawei/HWPLK/proprietary/lib/hw/sensorhub.default.so:system/lib/hw/sensorhub.default.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hw/fingerprint.hi3635.so:system/lib/hw/fingerprint.hi3635.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hw/fingerprintd.ex.so:system/lib/hw/fingerprintd.ex.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hw/gatekeeper.hi3635.so:system/lib/hw/gatekeeper.hi3635.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hw/keystore.hi3635.so:system/lib/hw/keystore.hi3635.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hw/sensorcaps.default.so:system/lib/hw/sensorcaps.default.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hw/sensorhub.default.so:system/lib/hw/sensorhub.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/fingerprint.hi3635.so:system/lib64/hw/fingerprint.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/fingerprintd.ex.so:system/lib64/hw/fingerprintd.ex.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/gatekeeper.hi3635.so:system/lib64/hw/gatekeeper.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/keystore.default.so:system/lib/hw64/keystore.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/keystore.hi3635.so:system/lib/hw64/keystore.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/sensorcaps.default.so:system/lib64/hw/sensorcaps.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/sensorhub.default.so:system/lib/hw64/sensorhub.default.so \
 	vendor/huawei/HWPLK/proprietary/usr/idc/fingerprint.idc:system/usr/idc/fingerprint.idc \
 	vendor/huawei/HWPLK/proprietary/usr/keylayout/fingerprint.kl:system/usr/keylayout/fingerprint.kl \
 	vendor/huawei/HWPLK/proprietary/bin/keystore:system/bin/keystore \
