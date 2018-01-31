@@ -124,13 +124,13 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.GRACE.p.imx179_udp.so:system/lib64/hwcam/hwcam.hi3635.GRACE.p.imx179_udp.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.p.imx179.so:system/lib64/hwcam/hwcam.hi3635.PLK.p.imx179.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.p.imx179_liteon.so:system/lib64/hwcam/hwcam.hi3635.PLK.p.imx179_liteon.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.p.imx179_sunny.so:system/lib64/hwcam/hwcam.hi3635.PLK.p.imx179:sunny.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.p.imx179_sunny.so:system/lib64/hwcam/hwcam.hi3635.PLK.p.imx179_sunny.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.s.imx179_liteon.so:system/lib64/hwcam/hwcam.hi3635.PLK.s.imx179_liteon.so \
-	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.s.imx179_sunny.so:system/lib64/hwcam/hwcam.hi3635.PLK.s.imx179:sunny.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.hi3635.PLK.s.imx179_sunny.so:system/lib64/hwcam/hwcam.hi3635.PLK.s.imx179_sunny.so \
 	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.PLK.p.imx179_liteon.so:system/lib/hwcam/hwcam.hi3635.PLK.p.imx179_liteon.so \
-	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.PLK.p.imx179_sunny.so:system/lib/hwcam/hwcam.hi3635.PLK.p.imx179:sunny.so \
+	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.PLK.p.imx179_sunny.so:system/lib/hwcam/hwcam.hi3635.PLK.p.imx179_sunny.so \
 	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.PLK.s.imx179_liteon.so:system/lib/hwcam/hwcam.hi3635.PLK.s.imx179_liteon.so \
-	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.PLK.s.imx179_sunny.so:system/lib/hwcam/hwcam.hi3635.PLK.s.imx179:sunny.so \
+	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.PLK.s.imx179_sunny.so:system/lib/hwcam/hwcam.hi3635.PLK.s.imx179_sunny.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hwcam/hwcam.ddt.so:system/lib64/hwcam/hwcam.ddt.so \
 	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.m.PLK.so:system/lib/hwcam/hwcam.hi3635.m.PLK.so \
 	vendor/huawei/HWPLK/proprietary/lib/hwcam/hwcam.hi3635.GRACE.s.ov8865.so:system/lib/hwcam/hwcam.hi3635.GRACE.s.ov8865.so \
