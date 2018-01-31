@@ -399,6 +399,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
 	vendor/huawei/HWPLK/proprietary/lib/libwvm.so:system/lib/libwvm.so \
 	vendor/huawei/HWPLK/proprietary/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
+	vendor/huawei/HWPLK/proprietary/lib64/libmorpho_effect_library5.so:system/lib64/libmorpho_effect_library5.so \
 	vendor/huawei/HWPLK/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
 	vendor/huawei/HWPLK/proprietary/bin/mediaserver:system/bin/mediaserver \
