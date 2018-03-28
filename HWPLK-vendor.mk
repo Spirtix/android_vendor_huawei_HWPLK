@@ -400,9 +400,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib/libwvm.so:system/lib/libwvm.so \
 	vendor/huawei/HWPLK/proprietary/lib/libmorpho_effect_library5.so:system/lib/libmorpho_effect_library5.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libmorpho_effect_library5.so:system/lib64/libmorpho_effect_library5.so \
-	vendor/huawei/HWPLK/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-	vendor/huawei/HWPLK/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
-	vendor/huawei/HWPLK/proprietary/bin/mediaserver:system/bin/mediaserver \
 	vendor/huawei/HWPLK/proprietary/lib/libservices.huawei.so:system/lib/libservices.huawei.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libservices.huawei.so:system/lib64/libservices.huawei.so \
 	vendor/huawei/HWPLK/proprietary/lib/libmedialogservice.so:system/lib/libmedialogservice.so \
@@ -489,9 +486,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
 	vendor/huawei/HWPLK/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/huawei/HWPLK/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-	vendor/huawei/HWPLK/proprietary/bin/sensorservice:system/bin/sensorservice \
-	vendor/huawei/HWPLK/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-	vendor/huawei/HWPLK/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
 	vendor/huawei/HWPLK/proprietary/bin/mac_addr_normalization:system/bin/mac_addr_normalization \
 	vendor/huawei/HWPLK/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
 	vendor/huawei/HWPLK/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -741,8 +735,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/libhwaps.so:system/lib64/libhwaps.so \
 	vendor/huawei/HWPLK/proprietary/lib/libhwgl.so:system/lib/libhwgl.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libhwgl.so:system/lib64/libhwgl.so \
-	vendor/huawei/HWPLK/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
-	vendor/huawei/HWPLK/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
 	vendor/huawei/HWPLK/proprietary/lib/liblog.so:system/lib/liblog.so \
 	vendor/huawei/HWPLK/proprietary/lib64/liblog.so:system/lib64/liblog.so \
     vendor/huawei/HWPLK/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
@@ -761,16 +753,3 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/libfm_volume.so:system/lib64/libfm_volume.so \
 	vendor/huawei/HWPLK/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
 	vendor/huawei/HWPLK/proprietary/framework/com.hisi.perfhub.jar:system/framework/com.hisi.perfhub.jar
-	vendor/huawei/HWPLK/proprietary/framework/com.android.media.remotedisplay.jar
-	vendor/huawei/HWPLK/proprietary/etc/lsccir_config
-	vendor/huawei/HWPLK/proprietary/etc/permissions/android.hardware.consumerir.xml
-	vendor/huawei/HWPLK/proprietary/etc/permissions/com.android.media.remotedisplay.xml
-	vendor/huawei/HWPLK/proprietary/lib/libIrLearning_jni.so
-	vendor/huawei/HWPLK/proprietary/lib/hw/consumerir.default.so
-	vendor/huawei/HWPLK/proprietary/lib/hw/consumerir.hi3635.so
-	vendor/huawei/HWPLK/proprietary/lib/hw/irselflearning.default.so
-	vendor/huawei/HWPLK/proprietary/lib64/libIrLearning_jni.so
-	vendor/huawei/HWPLK/proprietary/lib64/hw/consumerir.default.so
-	vendor/huawei/HWPLK/proprietary/lib64/hw/consumerir.hi3635.so
-	vendor/huawei/HWPLK/proprietary/lib64/hw/irselflearning.default.so
-	vendor/huawei/HWPLK/proprietary/bin/irBlaster
