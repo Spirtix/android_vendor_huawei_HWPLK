@@ -738,12 +738,8 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib/liblog.so:system/lib/liblog.so \
 	vendor/huawei/HWPLK/proprietary/lib64/liblog.so:system/lib64/liblog.so \
     vendor/huawei/HWPLK/proprietary/lib64/libshim_camera_client.so:system/lib64/libshim_camera_client.so \
-    vendor/huawei/HWPLK/proprietary/lib64/libshim_gui.so:system/lib64/libshim_gui.so \
-    vendor/huawei/HWPLK/proprietary/lib64/libshim_hwui.so:system/lib64/libshim_hwui.so \
     vendor/huawei/HWPLK/proprietary/lib64/libshim_media.so:system/lib64/libshim_media.so \
     vendor/huawei/HWPLK/proprietary/lib/libshim_camera_client.so:system/lib/libshim_camera_client.so \
-    vendor/huawei/HWPLK/proprietary/lib/libshim_gui.so:system/lib/libshim_gui.so \
-    vendor/huawei/HWPLK/proprietary/lib/libshim_hwui.so:system/lib/libshim_hwui.so \
     vendor/huawei/HWPLK/proprietary/lib/libshim_media.so:system/lib/libshim_media.so \
 	vendor/huawei/HWPLK/proprietary/lib/hw/fm.bcm.hi3635.so:system/lib/hw/fm.bcm.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib/libfm_interface.so:system/lib/libfm_interface.so \
