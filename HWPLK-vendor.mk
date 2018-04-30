@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib/libperfhub_service.so:system/lib/libperfhub_service.so \
 	vendor/huawei/HWPLK/proprietary/bin/perfhub:system/bin/perfhub \
 	vendor/huawei/HWPLK/proprietary/etc/permissions/com.hisi.perfhub.xml:system/etc/permissions/com.hisi.perfhub.xml \
+	vendor/huawei/HWPLK/proprietary/etc/permissions/android.hardware.huawei.xml:system/etc/permissions/android.hardware.huawei.xml \
 	vendor/huawei/HWPLK/proprietary/lib64/libperfhub_client.so:system/lib64/libperfhub_client.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libperfhub.so:system/lib64/libperfhub.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libperfhub_service.so:system/lib64/libperfhub_service.so \
