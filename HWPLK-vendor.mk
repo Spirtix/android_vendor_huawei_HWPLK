@@ -749,4 +749,17 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/libfm_interface.so:system/lib64/libfm_interface.so \
 	vendor/huawei/HWPLK/proprietary/lib64/libfm_volume.so:system/lib64/libfm_volume.so \
 	vendor/huawei/HWPLK/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
-	vendor/huawei/HWPLK/proprietary/framework/com.hisi.perfhub.jar:system/framework/com.hisi.perfhub.jar
+	vendor/huawei/HWPLK/proprietary/framework/com.hisi.perfhub.jar:system/framework/com.hisi.perfhub.jar \
+	vendor/huawei/HWPLK/proprietary/framework/com.android.media.remotedisplay.jar \
+	vendor/huawei/HWPLK/proprietary/etc/lsccir_config \
+	vendor/huawei/HWPLK/proprietary/etc/permissions/android.hardware.consumerir.xml \
+	vendor/huawei/HWPLK/proprietary/etc/permissions/com.android.media.remotedisplay.xml \
+	vendor/huawei/HWPLK/proprietary/lib/libIrLearning_jni.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/consumerir.default.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/consumerir.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib/hw/irselflearning.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/libIrLearning_jni.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/consumerir.default.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/consumerir.hi3635.so \
+	vendor/huawei/HWPLK/proprietary/lib64/hw/irselflearning.default.so \
+	vendor/huawei/HWPLK/proprietary/bin/irBlaster
