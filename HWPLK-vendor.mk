@@ -762,4 +762,6 @@ PRODUCT_COPY_FILES := \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/consumerir.hi3635.so:system/lib64/hw/consumerir.hi3635.so \
 	vendor/huawei/HWPLK/proprietary/lib64/hw/irselflearning.default.so:system/lib64/hw/irselflearning.default.so \
-	vendor/huawei/HWPLK/proprietary/bin/irBlaster:system/bin/irBlaster
+	vendor/huawei/HWPLK/proprietary/bin/irBlaster:system/bin/irBlaster \
+	vendor/huawei/HWPLK/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
+	vendor/huawei/HWPLK/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so
